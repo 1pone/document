@@ -1,4 +1,4 @@
-import { type HomeLayoutProps } from 'fumadocs-ui/home-layout';
+import { type HomeLayoutProps } from 'fumadocs-ui/home-layout'
 
 /**
  * Shared layout configurations
@@ -9,13 +9,9 @@ import { type HomeLayoutProps } from 'fumadocs-ui/home-layout';
  */
 export const baseOptions: HomeLayoutProps = {
   nav: {
-    title: 'My App',
+    title: '1pone',
   },
-  links: [
-    {
-      text: 'Documentation',
-      url: '/docs',
-      active: 'nested-url',
-    },
-  ],
-};
+  i18n: true,
+  githubUrl: 'https://github.com/1pone/document',
+  links: [],
+}
